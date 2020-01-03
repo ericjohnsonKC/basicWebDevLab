@@ -1,0 +1,16 @@
+#mainHeader {
+    text-align: center;
+    background-color: lightgray;
+}
+#mainDiv {
+    border: 3px solid lightgray;
+    padding: 5px;
+    margin: 5px;
+}
+body {
+    font: verdana;
+}    
+
+nav {
+    background-color: lightgray;
+}
