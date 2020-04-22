@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -15,8 +15,52 @@
     <form action="dataProcessor.php" method="GET">
       
       <label for="textField">My Text Field:</label>
-      <input type="text" name="textField" id="textField">
+      <input type="text" name="textField" id="textField"><br />
+
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email"><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password"><br />
+
+      <label for="telephone">Telephone:</label>
+      <input type="tel" name="telephone" id="telephone"><br />
+
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date"><br />
+
+      <label for="file">Select a file to upload:</label>
+      <input type="file" name="file" id="file"><br />
+
+      <select>
+        <option value="tater-salad">Tater Salad</option>
+        <option value="green-bean-casserole">Green Bean Casserole</option>
+      </select>
+
+
+
+      <label for="textarea">Enter your bio...</label><br />
+      <textarea name="textarea" id="textarea" rows="20" cols="50" value="Enter your text here"></textarea><br />
+
+      <input type="radio" name="ageGroup" id="1-29" value="1-29">
+      <label for="1-29">1-29</label><br />
+
+      <input type="radio" name="ageGroup" id="30-50" value="30-50">
+      <label for="30-50">30-50</label><br />
+
+      <input type="checkbox" name="tacos" id="tacos" value="tacos">
+      <label for="tacos">I like tacos</label><br />
+
+      <input type="checkbox" name="hamburgers" id="hamburgers" value="hamburgers">
+      <label for="hamburgers">I like hamburgers</label><br />
+
+      <input type="checkbox" name="pizza" id="pizza" value="pizza">
+      <label for="pizza">I like pizza</label><br />
+
+      <input type='submit' value="Submit">
 
     </form>
+
+    
 </body>
 </html>

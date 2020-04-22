@@ -9,9 +9,12 @@
 }
 body {
     font: verdana;
-    background: #eeeeee;
-}    
+    }    
 
 nav {
     background-color: lightgray;
+}
+
+form{
+    background: #eeeeee;
 }
