@@ -1,0 +1,33 @@
+body {
+    position: relative;
+}
+
+#coloredBox {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 30px;
+    transition: 1s;
+}
+
+.notClicked {
+    background: green;
+}
+
+.clicked {
+    background: blue;
+}
+
+#coloredBox:hover {
+    box-shadow: 5px 5px gray;
+}
+
+#shapedBox {
+    position: absolute;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background: gray;
+    transition: 1s;
+}
